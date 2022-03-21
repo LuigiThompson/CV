@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form
+      action="mailto:setem2170@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <h1>Forms</h1>
+      <label>Name: </label>
+      <input type="text" name="name" /><br />
+      <label>Surname:</label>
+      <input type="text" name="Surname" /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" required /><br /><label for=""
+        >Phone Number:</label
+      ><input type="tel" name="phone" required /><br />
+      <label for="">Date Of Birth:</label
+      ><input type="date" name="dateofbirth" /><br /><label for=""
+        >Citizenship:</label
+      ><br /><input
+        type="radio"
+        id="South African Citizen"
+        name="Citizenship"
+        value="South African Citizen"
+      /><label for="">South African</label><br /><input
+        type="radio"
+        id="International"
+        name="Citizenship"
+        value="International"
+      /><label>International</label><br /><label>Favorite Colour:</label
+      ><input type="color" name="FavColour" /><br /><label for=""
+        >Rate Form:</label
+      ><input type="range" name="Range" /><br /><label for="">Upload CV:</label
+      ><input type="file" name="CV Upload" /><br /><label>Comments</label
+      ><br /><textarea name="Comments" rows="10" cols="30">Comments</textarea
+      ><br />
+      <label>Do you agree with the terms and conditions?</label
+      ><input type="checkbox" name="T&C" /><br /><input type="reset" /><input
+        type="submit"
+      />
+    </form>
+  </body>
+</html>
